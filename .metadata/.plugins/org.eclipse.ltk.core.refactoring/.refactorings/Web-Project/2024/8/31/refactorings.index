@@ -1,0 +1,6 @@
+1722668175571	Move 'LoginServlet.java' to 'controller'
+1722671192622	Move 'login.html' to 'webapp'
+1722671198826	Move 'error.html' to 'webapp'
+1722671202097	Move 'welcome.html' to 'webapp'
+1722672811223	Move 'controller' to 'webapp'
+1722672850107	Move 'controller' to 'java'

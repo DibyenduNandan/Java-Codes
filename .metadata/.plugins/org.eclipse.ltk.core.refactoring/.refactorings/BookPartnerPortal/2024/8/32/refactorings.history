@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;com.bookpartnerportal.BookPartnerPortal.entities.authors.java&apos; to &apos;Author.java&apos;&#x0D;&#x0A;- Original project: &apos;BookPartnerPortal&apos;&#x0D;&#x0A;- Original element: &apos;com.bookpartnerportal.BookPartnerPortal.entities.authors.java&apos;&#x0D;&#x0A;- Renamed element: &apos;com.bookpartnerportal.BookPartnerPortal.entities.Author.java&apos;" description="Rename compilation unit &apos;authors.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bookpartnerportal.BookPartnerPortal.entities{authors.java" name="Author.java" references="false" stamp="1723117191209" version="1.0"/>
+</session>

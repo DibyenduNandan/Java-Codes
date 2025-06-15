@@ -1,0 +1,31 @@
+<beans xmlns="http://www.springframework.org/schema/beans" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-4.0.xsd">
+
+<!-- fill the code -->
+
+<bean id="staffObj" class="com.spring.app.Staff">
+<!--<property name="staffId" value="1"></property>
+<property name="staffName" value="Ragul"></property>
+<property name="departmentName" value="CSE"></property>
+<property name="contactNo" value="9445543300"></property>-->
+<constructor-arg name="staffId" value="1"></constructor-arg>
+<constructor-arg name="staffName" value="Ragul"></constructor-arg>
+<constructor-arg name="departmentName" value="CSE"></constructor-arg>
+<constructor-arg name="contactNo" value="9445543300"></constructor-arg>
+</bean>
+
+
+<bean id="departmentObj" class="com.spring.app.Department">
+<constructor-arg name="departmentId" value="123"></constructor-arg>
+<constructor-arg name="staffs">
+<list>
+<ref bean="staffObj" />
+</list>
+</constructor-arg>
+
+</bean>
+
+  
+</beans>

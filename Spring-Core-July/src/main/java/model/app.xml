@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:context="http://www.springframework.org/schema/context"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd">
+
+<bean id="courseObj1" class="model.Course">
+<constructor-arg type="int" value="102"></constructor-arg>
+<constructor-arg type="String" value="java fsd"></constructor-arg>
+</bean>
+
+<bean id="courseObj2" class="model.Course">
+<constructor-arg type="int" value="112"></constructor-arg>
+<constructor-arg type="String" value="python fsd"></constructor-arg>
+</bean>
+
+<bean id="studObj" class="model.Student">
+<property name="name" value="xyz"> </property>
+<property name="details">
+<map> 
+<entry key ="108" value-ref="courseObj1"></entry>
+<entry key ="118" value-ref="courseObj2"></entry>
+<entry key ="119" value-ref="courseObj1"></entry>
+</map>
+</property>
+</bean>
+
+</beans>
