@@ -1,0 +1,3 @@
+Laptop,34000.00,2024-08-07,electronics
+Mobile,14000.00,2024-06-07,electronics
+Tablet,35000.00,2022-07-06,electronics
